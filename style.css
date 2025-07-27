@@ -9,7 +9,8 @@ height: 166px;
 
 body{
     margin:0;
-    overflow-x:hidden
+    overflow-x:hidden;
+    background-color: #F9F9F9;
 }
 
 .green{
@@ -43,6 +44,40 @@ img, div, section {
     box-sizing: border-box;
   }
 
+.gran{
+    position: relative;
+
+}
+  .phon{
+    position:absolute;
+    top: 300px;
+    right: 70%;
+  }
+  .navbar-brand img {
+  height: 30px;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+.btn-success {
+  font-size: 0.9rem;
+  border-radius: 5px;
+}
+
+img,
+button {
+  transition: transform 0.3s ease;
+}
+
+img:hover,
+button:hover {
+  transform: scale(1.1);
+}
+
+
 @media only screen and (max-width: 1000px) {
    .res-nav{
     text-align: center;
@@ -64,6 +99,15 @@ margin: 0,auto;
 .column3{
     margin-top: 100px;
 }
-
+.phon{
+    display: none;
+}
+.footer{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.res-hidd-col{
+    display: none;
+}
   }
   
